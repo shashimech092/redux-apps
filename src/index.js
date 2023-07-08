@@ -1,10 +1,10 @@
 import React from "react";
-import ReactDOM from 'react-dom/client'
-// import App from "./counter/App";
-import App from "./todoList/App";
-import { Provider } from "react-redux/es/exports";
-// import store from "./counter/store";
-import store from "./todoList/store";
+import ReactDOM   from "react-dom/client";
+import App from "./newcount/App";
+import store from "./newcount/store";
+import { Provider } from 'react-redux'
+
+
 
 const container=document.getElementById('root')
 const root=ReactDOM.createRoot(container)
