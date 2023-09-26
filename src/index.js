@@ -1,15 +1,9 @@
-import React from "react";
-import ReactDOM   from "react-dom/client";
-import App from "./newcount/App";
-import store from "./newcount/store";
-import { Provider } from 'react-redux'
-
-
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './newtodo/App'
 
 const container=document.getElementById('root')
-const root=ReactDOM.createRoot(container)
+const root = ReactDOM.createRoot(container)
 root.render(
-    <Provider store={store}>
-        <App/>
-    </Provider>
+    <App/>
 )

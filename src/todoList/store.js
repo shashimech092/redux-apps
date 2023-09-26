@@ -33,7 +33,7 @@ const todosReducer = (state = initialState.todos, action) => {
         },
       ];
     case REMOVE_TODO:
-      return state.filter((todo) => todo.id !== action.payload.id);
+      return state.filter((todo) => todo.id!== action.payload.id);
     default:
       return state;
   }
